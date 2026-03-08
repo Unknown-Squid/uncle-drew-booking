@@ -3,7 +3,6 @@ node_modules/
 **/node_modules/
 
 # Environment variables
-.env.local
 .env*.local
 !.env.example
 
@@ -41,3 +40,4 @@ coverage/
 # Misc
 *.pem
 .cache/
+config.bat
