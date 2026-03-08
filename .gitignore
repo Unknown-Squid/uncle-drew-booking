@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env.local
+.env*.local
+!.env.example
+
+# Next.js
+uncle-drew-booking/.next/
+uncle-drew-booking/out/
+uncle-drew-booking/.vercel
+
+# Build outputs
+**/build/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+.cache/
